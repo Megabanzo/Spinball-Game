@@ -18,7 +18,7 @@ public class GameMaster : MonoBehaviour
 
     public static bool firstoption = true;
 
-    public static int j =0;
+    public static int j =1;
 
     public static int skin = 0;
 

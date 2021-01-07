@@ -47,10 +47,11 @@ public class PointBumpers : MonoBehaviour
         else if (transform.position.y > 0 && isBumper)
         {
 
-
             gameObject.GetComponent<CircleCollider2D>().enabled = false;
 
         }
+
+
         if (isOn)
         {
             
