@@ -11,7 +11,7 @@ public class GameMaster : MonoBehaviour
     public static int score;
     public static int sectionLights = 0;
     public static int[] multi = { 1, 2, 3, 5 };
-    public static int i;
+    public static int i= 2;
     public static Color32[] colors = { new Color32(10, 10, 250, 255), new Color32(10, 230, 0, 255),
             new Color32(250, 210, 8, 255),new Color32(210, 10, 0, 255) };
     public static bool brickReset;
