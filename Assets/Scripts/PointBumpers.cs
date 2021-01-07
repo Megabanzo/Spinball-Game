@@ -14,7 +14,7 @@ public class PointBumpers : MonoBehaviour
     public float volume = 0.5f;
     public Light light1;
     public bool isBumper;
-    public bool tets;
+    public bool isBlinky;
    
 
     public bool isOn = false;

@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turnsOff: 0
   isSpring: 0
-  isSection: 1
+  isSection: 0
   points: 1500
   audioSource: {fileID: 2568248934182728065}
   clip: {fileID: 8300000, guid: 1abe875b757f68a4ead43aff9e3cb95f, type: 3}
