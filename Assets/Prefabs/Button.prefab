@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2568248934182728071}
   m_LocalRotation: {x: 0.9781927, y: 0.20769954, z: -0, w: 0}
-  m_LocalPosition: {x: -1.302, y: 1.88, z: 0}
+  m_LocalPosition: {x: -1.302, y: 1.88, z: 0.052}
   m_LocalScale: {x: 0.16751614, y: 0.16751614, z: 0.16751614}
   m_Children:
   - {fileID: 2915034720167534836}
@@ -55,7 +55,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1bdde91a011a548b3b070496c4088c24, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -400,7 +400,7 @@ PrefabInstance:
     - target: {fileID: 3184695578858781693, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Range
-      value: 1.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3184695578858781693, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
@@ -480,7 +480,7 @@ PrefabInstance:
     - target: {fileID: 6073149995099295321, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.9
+      value: -6.426
       objectReference: {fileID: 0}
     - target: {fileID: 6073149995099295321, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
