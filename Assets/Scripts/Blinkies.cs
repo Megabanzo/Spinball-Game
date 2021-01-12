@@ -7,7 +7,6 @@ public class Blinkies : MonoBehaviour
 {
 
     public GameObject[] circles;
-    public Light[] lights;
     public Sprite[] spriteSet;
     public float timer;
     public float interval = 0.5f;
@@ -40,20 +39,15 @@ public class Blinkies : MonoBehaviour
         }
         if (timer <= interval)
         {
-
             circles[0].GetComponent<SpriteRenderer>().sprite = spriteSet[1 + (GameMaster.i * 2)];
             circles[1].GetComponent<SpriteRenderer>().sprite = spriteSet[0 + (GameMaster.i * 2)];
             circles[2].GetComponent<SpriteRenderer>().sprite = spriteSet[0 + (GameMaster.i * 2)];
             circles[3].GetComponent<SpriteRenderer>().sprite = spriteSet[0 + (GameMaster.i * 2)];
 
-            
-
             circles[0].GetComponent<Light>().enabled = true;
             circles[1].GetComponent<Light>().enabled = false;
             circles[2].GetComponent<Light>().enabled = false;
             circles[3].GetComponent<Light>().enabled = false;
-
-            
 
         }
         else if(interval < timer && timer <= interval * 2 )
@@ -62,6 +56,7 @@ public class Blinkies : MonoBehaviour
             circles[1].GetComponent<SpriteRenderer>().sprite = spriteSet[1 + (GameMaster.i * 2)];
             circles[2].GetComponent<SpriteRenderer>().sprite = spriteSet[0 + (GameMaster.i * 2)];
             circles[3].GetComponent<SpriteRenderer>().sprite = spriteSet[0 + (GameMaster.i * 2)];
+
             circles[0].GetComponent<Light>().enabled = false;
             circles[1].GetComponent<Light>().enabled = true;
             circles[2].GetComponent<Light>().enabled = false;
