@@ -7348,6 +7348,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7676418943565298600, guid: ee991ca846b164eb1adfb401af034ec1,
+        type: 3}
+      propertyPath: m_Range
+      value: 1.0351415
+      objectReference: {fileID: 0}
     - target: {fileID: 7676418944601308030, guid: ee991ca846b164eb1adfb401af034ec1,
         type: 3}
       propertyPath: m_Range
@@ -7376,28 +7381,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7978776036696030654, guid: ee991ca846b164eb1adfb401af034ec1,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978776036696030654, guid: ee991ca846b164eb1adfb401af034ec1,
+        type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.8658295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978776036696030654, guid: ee991ca846b164eb1adfb401af034ec1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.50033927
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978776036696030654, guid: ee991ca846b164eb1adfb401af034ec1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978776036696030654, guid: ee991ca846b164eb1adfb401af034ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978776036696030654, guid: ee991ca846b164eb1adfb401af034ec1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.000015258789
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978776036696030654, guid: ee991ca846b164eb1adfb401af034ec1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 60.04499
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7978776037807471976, guid: ee991ca846b164eb1adfb401af034ec1,
         type: 3}
