@@ -405,32 +405,37 @@ PrefabInstance:
     - target: {fileID: 3184695578858781693, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Range
-      value: 0.8
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3184695578858781693, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Intensity
-      value: 200
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184695578858781693, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4561048369907279153, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Range
-      value: 0.8
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4561048369907279153, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Intensity
-      value: 200
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4561048369907279153, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_BounceIntensity
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5554605631092892654, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Range
-      value: 0.8
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5554605631092892654, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
@@ -440,17 +445,27 @@ PrefabInstance:
     - target: {fileID: 5554605631092892654, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Intensity
-      value: 200
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5554605631092892654, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5994632738750964363, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Range
-      value: 0.8
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5994632738750964363, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
       propertyPath: m_Intensity
-      value: 200
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994632738750964363, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6073149995099295321, guid: 007d5c20ed3a61043aad2f8aa4f0cf84,
         type: 3}
