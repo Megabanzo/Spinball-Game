@@ -18,12 +18,12 @@ public class FlipControlLeft : MonoBehaviour
     public float speed;// controls flipper speed
     private HingeJoint2D myHingeJoint;
     private JointMotor2D motor2D;
-    private SpriteRenderer renderer;
+    private SpriteRenderer rendere;
 
 
     void Start()
     {
-        renderer = GetComponent<SpriteRenderer>();
+        rendere = GetComponent<SpriteRenderer>();
         myHingeJoint = GetComponent<HingeJoint2D>();
         motor2D = myHingeJoint.motor;
     }
@@ -33,11 +33,12 @@ public class FlipControlLeft : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q) && (MainMenu2.tutorialIndex == 0 || MainMenu2.tutorialIndex == 1))
         {
+            Debug.Log("Q Input");
+
             if (clip != null)
             {
                 audioSource.PlayOneShot(clip, volume);
             }
-            //renderer.color = new Color(0f, 255f, 0f, 1f);
             isKeyPress = true;
             if(MainMenu2.tutorialIndex != 0)
             {
@@ -48,6 +49,7 @@ public class FlipControlLeft : MonoBehaviour
         {
             isKeyPress = false;
             //renderer.color = new Color(255f, 100f, 0f, 1f);
+            //Debug.Log("What the shit man");
         }		
     }
 
@@ -56,8 +58,10 @@ public class FlipControlLeft : MonoBehaviour
     {
         // on press keyboard, activates hinge motor for left flipper
         if (isKeyPress == true && isTouched == false || isKeyPress == false && isTouched == true)
-        {				
-            
+        {
+            //rendere.color = new Color(0, 0, 1, 1);
+
+
             motor2D.motorSpeed = speed;
             myHingeJoint.motor = motor2D;
         }
