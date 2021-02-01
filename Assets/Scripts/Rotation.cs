@@ -128,21 +128,21 @@ public class Rotation : MonoBehaviour
 
         
 
-        //Mouse Movement
-        /*if (rotation > 0)
-        {
-            if (currentAngle > -maximumAngle)
-            {
-                transform.Rotate(0, 0, -realSpeed * Math.Abs(rotation));
-            }
-        }
-        if (rotation < 0)
-        {
-            if (currentAngle < maximumAngle)
-            {
-                transform.Rotate(0, 0, realSpeed * Math.Abs(rotation));
-            }
-        }*/
+        //Mouse Movement Deprecated
+        //if (rotation > 0)
+        //{
+        //    if (currentAngle > -maximumAngle)
+        //    {
+        //        transform.Rotate(0, 0, -realSpeed * Math.Abs(rotation));
+        //    }
+        //}
+        //if (rotation < 0)
+        //{
+        //    if (currentAngle < maximumAngle)
+        //    {
+        //        transform.Rotate(0, 0, realSpeed * Math.Abs(rotation));
+        //    }
+        //}
 
 
 

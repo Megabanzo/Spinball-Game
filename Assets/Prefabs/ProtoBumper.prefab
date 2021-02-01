@@ -50,6 +50,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -114,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnsOff: 1
+  isSpring: 0
   isSection: 0
   points: 1000
   audioSource: {fileID: -4226488582101887178}
@@ -122,6 +124,7 @@ MonoBehaviour:
   volume: 0.5
   light1: {fileID: 2365050045687642355}
   isBumper: 1
+  isBlinky: 0
   isOn: 0
   spriteSet:
   - {fileID: 21300000, guid: 7ecf2d58707e184468f6a0fc8b73b796, type: 3}
@@ -241,7 +244,7 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_ForceMagnitude: 500
+  m_ForceMagnitude: 700
   m_ForceVariation: 0
   m_DistanceScale: 1
   m_ForceSource: 0
@@ -257,8 +260,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016066675467428141}
   m_Enabled: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 0.8235294, g: 0.039215688, b: 0, a: 1}
   m_Intensity: 200
   m_Range: 0.7
