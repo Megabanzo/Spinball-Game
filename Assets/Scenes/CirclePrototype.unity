@@ -2741,6 +2741,7 @@ MonoBehaviour:
   audioSource: {fileID: 242442780}
   volume: 0.7
   speed: 1800
+  pSystem: {fileID: 0}
 --- !u!233 &242442782
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -20195,7 +20196,7 @@ PrefabInstance:
     - target: {fileID: 2963614601441342858, guid: 6bc8c39eb68a77d47961d6f29df0c8c0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3080329580917462869, guid: 6bc8c39eb68a77d47961d6f29df0c8c0,
         type: 3}
@@ -21339,7 +21340,7 @@ PrefabInstance:
     - target: {fileID: 8511604009733641752, guid: 2de2c4ecc13a63a44842e1b3c967bf05,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8511604009733641752, guid: 2de2c4ecc13a63a44842e1b3c967bf05,
         type: 3}
@@ -21349,12 +21350,12 @@ PrefabInstance:
     - target: {fileID: 8511604009733641752, guid: 2de2c4ecc13a63a44842e1b3c967bf05,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8511604009733641752, guid: 2de2c4ecc13a63a44842e1b3c967bf05,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.8660254
       objectReference: {fileID: 0}
     - target: {fileID: 8511604009733641752, guid: 2de2c4ecc13a63a44842e1b3c967bf05,
         type: 3}
@@ -21369,7 +21370,7 @@ PrefabInstance:
     - target: {fileID: 8511604009733641752, guid: 2de2c4ecc13a63a44842e1b3c967bf05,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 240
       objectReference: {fileID: 0}
     - target: {fileID: 8511604009733641753, guid: 2de2c4ecc13a63a44842e1b3c967bf05,
         type: 3}

@@ -19,6 +19,10 @@ public class FlipControlLeft : MonoBehaviour
     private HingeJoint2D myHingeJoint;
     private JointMotor2D motor2D;
     private SpriteRenderer rendere;
+    public GameObject pSystem;
+
+
+    private ParticleSystem particle;
 
 
     void Start()
@@ -26,6 +30,7 @@ public class FlipControlLeft : MonoBehaviour
         rendere = GetComponent<SpriteRenderer>();
         myHingeJoint = GetComponent<HingeJoint2D>();
         motor2D = myHingeJoint.motor;
+        particle = pSystem.GetComponent<ParticleSystem>();
     }
 
     // sets isKeyPress used for fixed update
@@ -34,6 +39,7 @@ public class FlipControlLeft : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q) && (MainMenu2.tutorialIndex == 0 || MainMenu2.tutorialIndex == 1))
         {
             Debug.Log("Q Input");
+            particle.Play();
 
             if (clip != null)
             {
@@ -60,7 +66,8 @@ public class FlipControlLeft : MonoBehaviour
         if (isKeyPress == true && isTouched == false || isKeyPress == false && isTouched == true)
         {
             //rendere.color = new Color(0, 0, 1, 1);
-
+            //qStartCoroutine("Sparks");
+            
 
             motor2D.motorSpeed = speed;
             myHingeJoint.motor = motor2D;
@@ -73,6 +80,8 @@ public class FlipControlLeft : MonoBehaviour
         }
 
     }
+
+    
 }
 
 
