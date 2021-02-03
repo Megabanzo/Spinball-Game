@@ -12,7 +12,7 @@ public class FlipControlRight : MonoBehaviour
     public bool isTouched = false;
 
     //sound variables
-    
+
     public AudioClip clip;
     public AudioSource audioSource;
     public float volume = 0.5f;
@@ -21,6 +21,10 @@ public class FlipControlRight : MonoBehaviour
     private HingeJoint2D myHingeJoint;
     private JointMotor2D motor2D;
 
+    private ParticleSystem particle;
+    public GameObject pSystem;
+
+
 
 
     void Start()
@@ -28,6 +32,7 @@ public class FlipControlRight : MonoBehaviour
         
         myHingeJoint = GetComponent<HingeJoint2D>();
         motor2D = myHingeJoint.motor;
+        particle = pSystem.GetComponent<ParticleSystem>();
     }
 	
     // Update is called once per frame
@@ -36,6 +41,8 @@ public class FlipControlRight : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && (MainMenu2.tutorialIndex == 0 || MainMenu2.tutorialIndex == 2))
         {
+
+            particle.Play();
             if (clip != null)
             {
                 audioSource.PlayOneShot(clip, volume);
