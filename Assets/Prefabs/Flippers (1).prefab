@@ -750,6 +750,21 @@ PrefabInstance:
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].y
       value: -0.117576234
       objectReference: {fileID: 0}
+    - target: {fileID: 7668490745037414679, guid: e1913aaf0706a0842bded47cbb909859,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25747472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668490745037414679, guid: e1913aaf0706a0842bded47cbb909859,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.96628505
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668490745037414679, guid: e1913aaf0706a0842bded47cbb909859,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.15901
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7248896792049019054, guid: e1913aaf0706a0842bded47cbb909859, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e1913aaf0706a0842bded47cbb909859, type: 3}
